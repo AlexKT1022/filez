@@ -8,5 +8,6 @@ CREATE TABLE files (
   id SERIAL PRIMARY KEY,
   name TEXT UNIQUE NOT NULL,
   size INTEGER NOT NULL,
-  folder_id INTEGER NOT NULL REFERENCES folders (id) ON DELETE CASCADE
+  folder_id INTEGER NOT NULL REFERENCES folders (id) ON DELETE CASCADE,
+  UNIQUE (name, folder_id)
 );
