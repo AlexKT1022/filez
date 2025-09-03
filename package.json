@@ -16,9 +16,13 @@
   },
   "dependencies": {
     "express": "^5.1.0",
-    "pg": "^8.14.1"
+    "pg": "^8.14.1",
+    "prettier": "^3.6.2",
+    "prettier-plugin-sql": "^0.19.2"
   },
   "devDependencies": {
+    "@faker-js/faker": "^10.0.0",
+    "prettier-plugin-organize-imports": "^4.2.0",
     "supertest": "^7.1.0",
     "vitest": "^3.1.2"
   },

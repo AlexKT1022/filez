@@ -1,0 +1,7 @@
+{
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "dataTypeCase": "upper",
+  "keywordCase": "upper",
+  "plugins": ["prettier-plugin-organize-imports", "prettier-plugin-sql"]
+}
